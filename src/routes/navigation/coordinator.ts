@@ -9,6 +9,7 @@ const AuthCoordinator = {
 const LoggedCoordinator = {
   goToNews: () => navigation.push(LoggedStackScreenNames.News),
   goToMaps: () => navigation.push(LoggedStackScreenNames.Maps),
+  goToMembers: () => navigation.push(LoggedStackScreenNames.Members)
 };
 
 export const coordinator = {
