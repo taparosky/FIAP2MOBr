@@ -1,4 +1,4 @@
-import { Image, View, Text, StyleSheet } from "react-native";
+import { Image, View, Text, StyleSheet, TouchableOpacity } from "react-native";
 import { Separator } from "../Separator";
 import {stylesWithTheme} from './styles';
 import { themeSchema } from "@utils";
@@ -20,6 +20,7 @@ export const MemberCard = (props:MemberCardProps) => {
         />
         <Separator size={10}/>
         <Text style={styles.name}>{props.name}</Text>
+        <Separator size={14}/>
     </View>
     );
 
