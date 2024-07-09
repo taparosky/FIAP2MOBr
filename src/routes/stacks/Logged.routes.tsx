@@ -74,7 +74,7 @@ const MembersOptions: NativeStackNavigationOptions = {
   headerTitleStyle: {
     fontFamily: theme.fonts.RobotoMedium,
   },
-  title: 'Members',
+  title: 'Membros',
 };
 
 
